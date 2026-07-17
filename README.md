@@ -1,9 +1,9 @@
-# Pricing Section using Flexbox
+# Pricing Section using CSS Grid
 
 ## Technologies
 - HTML5
 - CSS3
-- Flexbox
+- CSS Grid
 
 ## Features
 - Responsive design
@@ -13,4 +13,4 @@
 - Mobile-friendly layout
 
 ## Author
-MUNAZA MUNIR FRONT END DEVELOPER INTERN 
+MUNAZA MUNIR FRONT END DEVELOPER INTERN
