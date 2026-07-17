@@ -1,0 +1,160 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* Body */
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:linear-gradient(135deg,#6a11cb,#2575fc);
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:20px;
+}
+
+/* Card */
+
+.profile-card{
+
+    background:white;
+
+    width:100%;
+
+    max-width:350px;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,0.25);
+
+    transition:0.3s;
+}
+
+.profile-card:hover{
+
+    transform:translateY(-8px);
+}
+
+/* Profile Image */
+
+.profile-image{
+
+    width:150px;
+
+    height:150px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid #2575fc;
+
+    margin-bottom:20px;
+}
+
+/* Heading */
+
+h1{
+
+    color:#333;
+
+    margin-bottom:8px;
+}
+
+h3{
+
+    color:#2575fc;
+
+    margin-bottom:18px;
+
+    font-weight:500;
+}
+
+/* Bio */
+
+.bio p{
+
+    color:#555;
+
+    line-height:1.7;
+
+    margin-bottom:25px;
+}
+
+/* Footer */
+
+footer{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:10px;
+
+    flex-wrap:wrap;
+}
+
+footer a{
+
+    flex:1;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#2575fc;
+
+    padding:10px;
+
+    border-radius:8px;
+
+    transition:0.3s;
+}
+
+footer a:hover{
+
+    background:#6a11cb;
+}
+
+footer i{
+
+    margin-right:6px;
+}
+
+/* Responsive */
+
+@media(max-width:500px){
+
+.profile-card{
+
+max-width:350px;
+
+}
+
+}
+
+@media(min-width:501px){
+
+.profile-card{
+
+max-width:500px;
+
+}
+
+}
