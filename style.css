@@ -1,160 +1,124 @@
-/* Reset */
-
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
-
-/* Body */
 
 body{
 
-    font-family:'Poppins',sans-serif;
+font-family:'Poppins',sans-serif;
 
-    background:linear-gradient(135deg,#6a11cb,#2575fc);
-
-    min-height:100vh;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    padding:20px;
+background:#f5f5f5;
 }
 
-/* Card */
+header{
 
-.profile-card{
+background:#2575fc;
 
-    background:white;
+color:white;
 
-    width:100%;
+padding:40px;
 
-    max-width:350px;
-
-    padding:30px;
-
-    border-radius:20px;
-
-    text-align:center;
-
-    box-shadow:0 12px 30px rgba(0,0,0,0.25);
-
-    transition:0.3s;
+text-align:center;
 }
 
-.profile-card:hover{
+.pricing-container{
 
-    transform:translateY(-8px);
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+padding:50px;
+
+flex-wrap:wrap;
 }
 
-/* Profile Image */
+.card{
 
-.profile-image{
+background:white;
 
-    width:150px;
+width:300px;
 
-    height:150px;
+padding:25px;
 
-    border-radius:50%;
+border-radius:15px;
 
-    object-fit:cover;
+text-align:center;
 
-    border:5px solid #2575fc;
+box-shadow:0 10px 20px rgba(0,0,0,.15);
 
-    margin-bottom:20px;
+transition:.3s;
 }
 
-/* Heading */
+.card:hover{
 
-h1{
-
-    color:#333;
-
-    margin-bottom:8px;
+transform:translateY(-10px);
 }
 
-h3{
+.card h2{
 
-    color:#2575fc;
-
-    margin-bottom:18px;
-
-    font-weight:500;
+margin-bottom:15px;
 }
 
-/* Bio */
+.card h3{
 
-.bio p{
+color:#2575fc;
 
-    color:#555;
-
-    line-height:1.7;
-
-    margin-bottom:25px;
+margin-bottom:20px;
 }
 
-/* Footer */
+.card ul{
+
+list-style:none;
+
+margin-bottom:20px;
+}
+
+.card li{
+
+margin:10px 0;
+}
+
+button{
+
+padding:12px 25px;
+
+background:#2575fc;
+
+color:white;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+}
+
+button:hover{
+
+background:#6a11cb;
+}
 
 footer{
 
-    display:flex;
+background:#222;
 
-    justify-content:space-between;
+color:white;
 
-    gap:10px;
+text-align:center;
 
-    flex-wrap:wrap;
+padding:20px;
 }
 
-footer a{
+@media(max-width:600px){
 
-    flex:1;
+.pricing-container{
 
-    text-decoration:none;
+flex-direction:column;
 
-    color:white;
-
-    background:#2575fc;
-
-    padding:10px;
-
-    border-radius:8px;
-
-    transition:0.3s;
-}
-
-footer a:hover{
-
-    background:#6a11cb;
-}
-
-footer i{
-
-    margin-right:6px;
-}
-
-/* Responsive */
-
-@media(max-width:500px){
-
-.profile-card{
-
-max-width:350px;
-
-}
-
-}
-
-@media(min-width:501px){
-
-.profile-card{
-
-max-width:500px;
-
+align-items:center;
 }
 
 }

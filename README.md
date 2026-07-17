@@ -1,32 +1,16 @@
-# Week 01 - Task 01
+# Pricing Section using Flexbox
 
-## Personal Profile Card
-
-### Objective
-Build a responsive personal profile card using semantic HTML and CSS.
-
-### Technologies Used
+## Technologies
 - HTML5
 - CSS3
-- Font Awesome
-- Google Fonts
+- Flexbox
 
-### Features
-- Semantic HTML structure
+## Features
 - Responsive design
-- Profile photo
-- Name and designation
-- Short bio
-- Social media links with icons
-- Rounded corners
-- Box shadow
-- Hover effect
-- Clean typography
+- Three-column pricing section
+- Header and footer
+- Hover effects
+- Mobile-friendly layout
 
-### Concerns
-
-While building this profile card, I initially found the difference between margin and padding confusing because both affect spacing. After experimenting with different values, I understood that margin creates space outside an element, while padding creates space inside it. I also spent time adjusting the box-shadow values to achieve a balanced effect. Using browser developer tools helped me visualize the changes and better understand how each CSS property works.
-
-### Author
-Munaza Munir
-Front-End Development Intern
+## Author
+MUNAZA MUNIR FRONT END DEVELOPER INTERN 
