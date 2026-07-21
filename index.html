@@ -4,80 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing Section - GRID VERSION</title>
+    <title>Interactive To-Do List</title>
 
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
-<header>
+    <div class="container">
 
-<h1>Our Pricing Plans</h1>
+        <header>
 
-<p>Choose the plan that fits your needs.</p>
+            <h1>Interactive To-Do List</h1>
 
-</header>
+            <p>Week 02 - DOM Manipulation Task</p>
 
-<main class="pricing-container">
+        </header>
 
-<section class="card">
+        <section class="input-section">
 
-<h2>Basic</h2>
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a new task">
 
-<h3>$9 / Month</h3>
+            <button id="addTaskBtn">
+                Add Task
+            </button>
 
-<ul>
-<li>1 Website</li>
-<li>Email Support</li>
-<li>5 GB Storage</li>
-</ul>
+        </section>
 
-<button>Select Plan</button>
+        <section class="task-info">
 
-</section>
+            <h3 id="remainingCount">
+                0 Tasks Remaining
+            </h3>
 
-<section class="card">
+        </section>
 
-<h2>Standard</h2>
+        <section class="filters">
 
-<h3>$19 / Month</h3>
+            <button class="filter-btn active" data-filter="all">
+                All
+            </button>
 
-<ul>
-<li>5 Websites</li>
-<li>Priority Support</li>
-<li>20 GB Storage</li>
-</ul>
+            <button class="filter-btn" data-filter="active">
+                Active
+            </button>
 
-<button>Select Plan</button>
+            <button class="filter-btn" data-filter="completed">
+                Completed
+            </button>
 
-</section>
+        </section>
 
-<section class="card">
+        <section>
 
-<h2>Premium</h2>
+            <ul id="taskList">
 
-<h3>$29 / Month</h3>
+            </ul>
 
-<ul>
-<li>Unlimited Websites</li>
-<li>24/7 Support</li>
-<li>Unlimited Storage</li>
-</ul>
+        </section>
 
-<button>Select Plan</button>
+    </div>
 
-</section>
-
-</main>
-
-<footer>
-
-<p>© 2026 Munaza Munir | Front-End Internship</p>
-
-</footer>
+    <script src="script.js"></script>
 
 </body>
+
 </html>

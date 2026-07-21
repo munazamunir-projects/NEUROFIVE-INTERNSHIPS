@@ -1,0 +1,5 @@
+MUNAZA MUNIR munazamunir2004@gmail.com 
+
+Reflection
+
+While building this project, I used a JavaScript array to store all tasks and then updated the DOM whenever the data changed. Every time a task was added, completed, or deleted, I called the render function to keep the displayed list synchronized with the data. Using createElement() and appendChild() helped me build the task list dynamically without relying on innerHTML for the entire list. This approach made the code easier to understand and maintain while ensuring the user interface always reflected the latest task data.
