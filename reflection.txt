@@ -1,5 +1,5 @@
-MUNAZA MUNIR munazamunir2004@gmail.com 
+MUNAZA MUNIR munazamunir2004@gmail.com
 
 Reflection
 
-While building this project, I used a JavaScript array to store all tasks and then updated the DOM whenever the data changed. Every time a task was added, completed, or deleted, I called the render function to keep the displayed list synchronized with the data. Using createElement() and appendChild() helped me build the task list dynamically without relying on innerHTML for the entire list. This approach made the code easier to understand and maintain while ensuring the user interface always reflected the latest task data.
+While designing this landing page, I used animations to guide the user's attention rather than decorating every element. The floating animation in the hero section makes the page feel more dynamic, while the scroll reveal effect highlights the features only when they come into view. I kept the animations short and smooth so they enhance the user experience without becoming distracting. This approach helped create a professional-looking interface that remains easy to navigate.

@@ -4,72 +4,193 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive To-Do List</title>
 
+    <title>Collabify | Startup Landing Page</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
 
-    <div class="container">
+    <!-- ================= NAVBAR ================= -->
 
-        <header>
+    <header class="navbar">
 
-            <h1>Interactive To-Do List</h1>
+        <div class="logo">
 
-            <p>Week 02 - DOM Manipulation Task</p>
+            <h2>Collabify</h2>
 
-        </header>
+        </div>
 
-        <section class="input-section">
+        <nav>
 
-            <input
-                type="text"
-                id="taskInput"
-                placeholder="Enter a new task">
+            <ul>
 
-            <button id="addTaskBtn">
-                Add Task
-            </button>
+                <li><a href="#hero">Home</a></li>
 
-        </section>
+                <li><a href="#features">Features</a></li>
 
-        <section class="task-info">
-
-            <h3 id="remainingCount">
-                0 Tasks Remaining
-            </h3>
-
-        </section>
-
-        <section class="filters">
-
-            <button class="filter-btn active" data-filter="all">
-                All
-            </button>
-
-            <button class="filter-btn" data-filter="active">
-                Active
-            </button>
-
-            <button class="filter-btn" data-filter="completed">
-                Completed
-            </button>
-
-        </section>
-
-        <section>
-
-            <ul id="taskList">
+                <li><a href="#cta">Contact</a></li>
 
             </ul>
 
-        </section>
+        </nav>
 
-    </div>
+    </header>
+
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section id="hero" class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Build Better Projects Together
+            </h1>
+
+            <p>
+                Collabify is a modern collaboration platform that helps teams communicate,
+                manage projects, and stay productive from anywhere in the world.
+            </p>
+
+            <a href="#features" class="hero-btn">
+                Get Started
+            </a>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <i class="fa-solid fa-rocket"></i>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FEATURES SECTION ================= -->
+
+    <section id="features" class="features">
+
+        <h2 class="section-title">
+
+            Our Features
+
+        </h2>
+
+
+        <div class="feature-container">
+
+
+            <article class="feature-card reveal">
+
+                <i class="fa-solid fa-users"></i>
+
+                <h3>Team Collaboration</h3>
+
+                <p>
+                    Work together with your team in real-time using a simple
+                    and organized workspace.
+                </p>
+
+            </article>
+
+
+
+            <article class="feature-card reveal">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                <h3>Performance Analytics</h3>
+
+                <p>
+                    Track project progress with easy-to-read dashboards
+                    and performance reports.
+                </p>
+
+            </article>
+
+
+
+            <article class="feature-card reveal">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                <h3>Secure Platform</h3>
+
+                <p>
+                    Your files and conversations remain protected with
+                    enterprise-level security.
+                </p>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- ================= CALL TO ACTION ================= -->
+
+    <section id="cta" class="cta">
+
+        <h2>
+
+            Ready to Grow Your Business?
+
+        </h2>
+
+        <p>
+
+            Join thousands of companies already using Collabify to improve
+            teamwork and productivity.
+
+        </p>
+
+        <button class="cta-btn">
+
+            Start Free Today
+
+        </button>
+
+    </section>
+
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Collabify. All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+
+
+    <!-- JavaScript -->
 
     <script src="script.js"></script>
 
